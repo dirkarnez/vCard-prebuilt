@@ -1,5 +1,5 @@
 
-add_library(${CMAKE_PROJECT_NAME} SHARED
+add_library(${CMAKE_PROJECT_NAME} STATIC
 vcard.cpp
 json_io.cpp
 text_io.cpp
